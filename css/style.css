@@ -18,9 +18,10 @@ body {
 
 .contacts {
   background-color: #fafafa;
+  z-index: 3000;
 }
 
-.contacts a {
+.contacts a, .footer-contact a {
   text-decoration: none;
   color: var(--greyish);
   transition: all 0.3s linear;
@@ -121,7 +122,7 @@ body {
 }
 .lower {
   background-color: white;
-}
+z-index:300000;}
 
 .button-blue {
   background-color: var(--dark-blue) !important;
@@ -180,4 +181,91 @@ body {
 
   opacity: 1;
   background-color: white;
+}
+
+
+/* flip boxes */
+
+.flip-box {
+  background-color: transparent;
+  width: 90%;
+  margin: auto;
+  height: 120px;
+  border-radius: 10px;
+
+  perspective: 1000px; 
+}
+
+
+.flip-box-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+  border-radius: 10px;
+}
+
+.flip-box:hover .flip-box-inner {
+  transform: rotateY(-180deg);
+}
+
+
+.flip-box-front, .flip-box-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; 
+  backface-visibility: hidden;
+  border-radius: 10px;
+
+}
+
+
+.flip-box-front {
+  color: var(--logo-blue);
+  border:3px solid var(--logo-blue);
+
+}
+
+.flip-box-back {
+  background-color: var(--logo-blue);
+  color: white;
+  transform: rotateY(-180deg);
+  font-size:1.1rem;
+}
+
+/* footer styling */
+.footer-link{
+  text-decoration: none;
+  color:#989898;
+  transition: all ease-in 0.3s;
+}
+.footer-head{
+  font-weight: bold;
+  color:#989898;
+}
+
+.footer-link:hover{
+  color:var(--dark-blue);
+}
+.footer{
+  width:80%;
+  padding-bottom:40px;
+}
+
+.footer-contact{
+  margin-top:50px;
+
+}
+.cpr{
+  color:#989898;
+  padding-left:90px;
+}
+@media (max-width:991px){
+  .cpr{
+    padding-left:10px;
+    margin-bottom:20px;
+  }
 }
