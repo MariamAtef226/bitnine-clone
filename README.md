@@ -3,7 +3,7 @@
 <img 
   src="https://bitnine.net/wp-content/uploads/2021/02/b_logo.png">
 
-A clone of the Btinine website homepage built using HTML, CSS, and JavaScript.
+A clone of the Btinine website homepage built using HTML, CSS, Btoostrap5, JavaScript, and jQuery.
 
 ## Table of Contents
 
