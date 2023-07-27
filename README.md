@@ -9,6 +9,7 @@ A clone of the Btinine website homepage built using HTML, CSS, Btoostrap5, JavaS
 
 - Overview
 - Usage
+- Notes
 - Technologies Used
 - License
 
@@ -28,6 +29,12 @@ To run the project locally, follow these steps:
 or
 
 Check the webpage though <a href='https://mariamatef226.github.io/btinine-clone/'>this link</a>
+
+
+## Notes
+
+- I neither speak korean nor understand, so I wasn't able to apply any translations. My apologies.
+- Some bugs were found within some features of the original website, so I've implemented them in a fixed way.
 
 
 ## Technologies Used
