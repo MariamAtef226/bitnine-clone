@@ -32,7 +32,9 @@ Check the webpage though <a href='https://mariamatef226.github.io/btinine-clone/
 
 ## Technologies Used
 
-- HTML
+<img src="https://www.freepnglogos.com/uploads/html5-logo-png/html5-logo-best-web-design-psd-html-cms-development-ecommerce-6.png" alt="html & css" width="150" height="60">  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/640px-Bootstrap_logo.svg.png" alt="bootstrap" width="50" height="50">  <img src="https://cdn.iconscout.com/icon/free/png-256/free-jquery-8-1175153.png" alt="react" width="55" height="50">
+
+- HTML 
 - CSS
 - JavaScript
 - jQuery
