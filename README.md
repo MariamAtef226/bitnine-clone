@@ -28,7 +28,7 @@ To run the project locally, follow these steps:
 
 or
 
-Check the webpage though <a href='https://mariamatef226.github.io/btinine-clone/'>this link</a>
+Check the webpage though <a href='https://mariamatef226.github.io/bitnine-clone/'>this link</a>
 
 
 ## Notes
